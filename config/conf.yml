@@ -1,0 +1,14 @@
+#port where service shall LISTEN for connection
+listenPort: :8181
+
+#logging settings
+log:
+  filename: logs/producer.log
+  level: DEBUG
+  kafkaOffset : logs/offset.log
+
+#kafka configuration
+kafkaURL: localhost:9092
+kafkaClientID: cons1
+kafkaTopic: news
+kafkaGroup: kmp_news
