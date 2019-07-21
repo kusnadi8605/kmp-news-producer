@@ -8,8 +8,8 @@ import (
 
 var writer *kafka.Writer
 
-// Configure kafka
-func Configure(kafkaBrokerUrls []string, clientID string, topic string) (w *kafka.Writer, err error) {
+// ConfigKafka kafka
+func ConfigKafka(kafkaBrokerUrls []string, clientID string, topic string) (w *kafka.Writer, err error) {
 	dialer := &kafka.Dialer{
 		Timeout:  10 * time.Second,
 		ClientID: clientID,

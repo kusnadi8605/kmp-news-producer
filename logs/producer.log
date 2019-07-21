@@ -1,0 +1,108 @@
+INFO 2019-07-21 14:33:05.432 Read Body request: [{
+	
+	"author":"aku",
+	"body":" mengapa "
+}] 
+INFO 2019-07-21 14:33:06.455 Response News : [{000 success}]
+INFO 2019-07-21 14:42:20.834 Read Body request: [{
+	
+	"author":"ksnadi",
+	"body":" beritaku "
+}] 
+INFO 2019-07-21 14:42:21.843 Response News : [{000 success}]
+INFO 2019-07-21 14:42:30.183 Read Body request: [{
+	
+	"author":"ksnadi",
+	"body":" beritaku "
+}] 
+INFO 2019-07-21 14:42:31.188 Response News : [{000 success}]
+INFO 2019-07-21 14:42:35.988 Read Body request: [{
+	
+	"author":"ksnadi",
+	"body":" beritaku "
+}] 
+INFO 2019-07-21 14:42:36.995 Response News : [{000 success}]
+INFO 2019-07-21 14:42:38.702 Read Body request: [{
+	
+	"author":"ksnadi",
+	"body":" beritaku "
+}] 
+INFO 2019-07-21 14:42:39.711 Response News : [{000 success}]
+INFO 2019-07-21 14:42:41.924 Read Body request: [{
+	
+	"author":"ksnadi",
+	"body":" beritaku "
+}] 
+INFO 2019-07-21 14:42:42.928 Response News : [{000 success}]
+INFO 2019-07-21 14:43:59.525 Read Body request: [{
+	
+	"author":"ksnadi",
+	"body":" beritaku "
+}] 
+INFO 2019-07-21 14:44:00.532 Response News : [{000 success}]
+INFO 2019-07-21 14:47:17.212 Read Body request: [{
+	
+	"author":"ksnadi",
+	"body":" beritaku hari ini"
+}] 
+INFO 2019-07-21 14:47:18.221 Response News : [{000 success}]
+INFO 2019-07-21 14:47:23.570 Read Body request: [{
+	
+	"author":"ksnadi",
+	"body":" beritaku hari ini"
+}] 
+INFO 2019-07-21 14:47:24.578 Response News : [{000 success}]
+INFO 2019-07-21 15:00:30.973 Read Body request: [{
+	
+	"author":"kusnadi",
+	"body":" beritaku hari ini"
+}] 
+INFO 2019-07-21 15:00:33.095 Response News : [{000 success}]
+INFO 2019-07-21 15:01:52.324 Read Body request: [{
+	
+	"author":"kusnadi",
+	"body":" beritaku hari ini"
+}] 
+INFO 2019-07-21 15:01:53.334 Response News : [{000 success}]
+INFO 2019-07-21 15:02:05.388 Read Body request: [{
+	
+	"author":"kusnadi",
+	"body":" beritaku hari ini"
+}] 
+INFO 2019-07-21 15:02:06.394 Response News : [{000 success}]
+INFO 2019-07-21 15:02:10.293 Read Body request: [{
+	
+	"author":"kusnadi",
+	"body":" beritaku hari ini"
+}] 
+INFO 2019-07-21 15:02:11.298 Response News : [{000 success}]
+INFO 2019-07-21 15:02:31.442 Read Body request: [{
+	
+	"author":"kusnadi",
+	"body":" beritaku hari ini"
+}] 
+INFO 2019-07-21 15:02:32.447 Response News : [{000 success}]
+INFO 2019-07-21 15:03:29.663 Read Body request: [{
+	
+	"author":"kusnadi",
+	"body":" beritaku hari ini"
+}] 
+INFO 2019-07-21 15:03:30.668 Response News : [{000 success}]
+INFO 2019-07-21 15:03:40.255 Read Body request: [{
+	
+	"author":"kusnadi",
+	"body":" beritaku hari ini"
+}] 
+INFO 2019-07-21 15:03:41.262 Response News : [{000 success}]
+INFO 2019-07-21 15:04:05.405 Read Body request: [{
+	
+	"author":"kusnadi",
+	"body":" beritaku hari ini"
+}] 
+INFO 2019-07-21 15:04:06.408 Response News : [{000 success}]
+INFO 2019-07-21 15:04:32.918 Read Body request: [{
+	
+	"author":"kusnadi",
+	"body":" beritaku hari ini"
+}] 
+INFO 2019-07-21 15:04:33.926 Response News : [{000 success}]

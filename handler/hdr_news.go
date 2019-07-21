@@ -25,10 +25,16 @@ func NewsHandler(kafkaWriter *kafka.Writer) func(http.ResponseWriter, *http.Requ
 		}
 
 		err = json.Unmarshal(body, &rNews)
+
+		log.Logf("Read Body request: %v ", string(body))
+
 		if err != nil {
 			rNewsResponse.ResponseCode = "500"
 			rNewsResponse.ResponseDesc = err.Error()
 			json.NewEncoder(w).Encode(rNewsResponse)
+
+			log.Logf("Response News : %v", rNewsResponse)
+
 			return
 		}
 		msg := kafka.Message{
@@ -39,15 +45,21 @@ func NewsHandler(kafkaWriter *kafka.Writer) func(http.ResponseWriter, *http.Requ
 		err = kafkaWriter.WriteMessages(req.Context(), msg)
 
 		if err != nil {
-			rNewsResponse.ResponseCode = "100"
-			rNewsResponse.ResponseDesc = err.Error()
+			rNewsResponse.ResponseCode = "300"
+			rNewsResponse.ResponseDesc = "Kafka error: " + err.Error()
 			json.NewEncoder(w).Encode(rNewsResponse)
+
+			log.Logf("Response News : %v", rNewsResponse)
+
 			return
 		}
 
 		rNewsResponse.ResponseCode = "000"
 		rNewsResponse.ResponseDesc = "success"
 		json.NewEncoder(w).Encode(rNewsResponse)
+
+		log.Logf("Response News : %v", rNewsResponse)
+
 		return
 
 	})
