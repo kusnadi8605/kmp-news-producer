@@ -1,16 +1,16 @@
 # kmp-news-producer
 Golang &amp; Kafka
 
-## add lib
+## Add Library
 go get -v github.com/go-sql-driver/mysql   
 go get -v gopkg.in/olivere/elastic.v7  
 go get -v github.com/segmentio/kafka-go  
 go get -v github.com/go-yaml/yaml  
 
-# running kafka
-## running zookeeper
+# Running Kafka
+## Running Zookeeper
 bin/zookeeper-server-start.sh config/zookeeper.properties
-## running kafka server
+## Running Kafka Server
 bin/kafka-server-start.sh config/server.properties
 
 # Running App
