@@ -2,7 +2,7 @@
 Golang &amp; Kafka
 
 ## add lib
-go get -v github.com/go-sql-driver/mysql /n
+go get -v github.com/go-sql-driver/mysql __
 go get -v gopkg.in/olivere/elastic.v7
 go get -v github.com/segmentio/kafka-go
 go get -v github.com/go-yaml/yaml
